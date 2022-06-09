@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+
+  .left-side {
+    background-color: #191718;
+  }
+
+  .right-side {
+    width: 70%;
+    flex: 1;
+
+    padding: 0 6rem;
+  }
+}

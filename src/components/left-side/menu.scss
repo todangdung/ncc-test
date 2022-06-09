@@ -1,0 +1,17 @@
+.menu {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: #191718;
+  color: white;
+  height: 100vh;
+
+  &-item {
+    width: 150px;
+    height: 44px;
+    border-bottom: 1px solid white;
+    align-items: center;
+    display: flex;
+    padding-left: 2rem;
+  }
+}
