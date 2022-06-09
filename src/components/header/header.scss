@@ -1,3 +1,5 @@
+@use "../../scss/mixin.scss" as *;
+
 .logo {
   width: 100%;
   align-items: center;
@@ -10,6 +12,10 @@
     justify-content: center;
     padding: 3rem;
 
+    @include mobile {
+      padding: 1rem 0rem;
+    }
+
     &__image {
       width: 310px;
       height: 122px;
@@ -20,7 +26,17 @@
     text-align: center;
     width: 100%;
     background-color: #efefef;
-    padding: 3rem;
+    padding: 2rem 10rem;
+
+    @include tablet {
+      padding: 1rem 3rem;
+    }
+
+    @include mobile {
+      padding: 1rem 1rem;
+    }
+
+    margin-bottom: 3rem;
 
     .title {
       font-weight: bold;

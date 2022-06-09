@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Menu from "./components/left-side/Menu";
 
 import "./App.scss";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -12,8 +13,11 @@ const App = () => {
         <Menu />
       </div>
       <div className="right-side">
-        <Header />
-        <Home />
+        <div className="container">
+          <Header />
+          <Home />
+        </div>
+        <Footer />
       </div>
     </div>
   );

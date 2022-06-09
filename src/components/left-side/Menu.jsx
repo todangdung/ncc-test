@@ -18,7 +18,10 @@ const menu = [
     display: "Blog",
     path: "/blog",
   },
-  { display: "Contact", path: "/contact" },
+  {
+    display: "Contact",
+    path: "/contact",
+  },
 ];
 
 const Menu = () => {

@@ -14,10 +14,21 @@
   }
 
   .right-side {
+    margin-top: 4rem;
     width: 70%;
     flex: 1;
 
-    padding: 0 6rem;
+    .container {
+      padding: 0 6rem;
+
+      @include tablet {
+        padding: 0 3rem;
+      }
+
+      @include mobile {
+        padding: 0 1rem;
+      }
+    }
 
     @include mobile {
       padding: 0 0;
