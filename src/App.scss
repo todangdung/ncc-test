@@ -14,7 +14,9 @@
   }
 
   .right-side {
-    margin-top: 4rem;
+    @include mobile {
+      margin-top: 4rem;
+    }
     width: 70%;
     flex: 1;
 
