@@ -1,3 +1,5 @@
+@use "../../scss/mixin.scss" as *;
+
 .menu {
   width: 20%;
   display: flex;
@@ -5,6 +7,10 @@
   background-color: #191718;
   color: white;
   height: 100vh;
+
+  @include mobile {
+    display: none;
+  }
 
   &-item {
     width: 150px;
